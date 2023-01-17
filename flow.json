@@ -51,5 +51,95 @@
         "x": 540,
         "y": 140,
         "wires": []
+    },
+    {
+        "id": "1be85d44076a002f",
+        "type": "inject",
+        "z": "e494b8cfe32b477f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 220,
+        "wires": [
+            [
+                "62de4c1269d23c2c"
+            ]
+        ]
+    },
+    {
+        "id": "62de4c1269d23c2c",
+        "type": "debug",
+        "z": "e494b8cfe32b477f",
+        "name": "debug 2",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 220,
+        "wires": []
+    },
+    {
+        "id": "27c13b2bbb913f86",
+        "type": "inject",
+        "z": "e494b8cfe32b477f",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": false,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 260,
+        "y": 300,
+        "wires": [
+            [
+                "1a3e03bec4f17e87"
+            ]
+        ]
+    },
+    {
+        "id": "1a3e03bec4f17e87",
+        "type": "debug",
+        "z": "e494b8cfe32b477f",
+        "name": "debug 3",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "false",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 540,
+        "y": 300,
+        "wires": []
     }
 ]
